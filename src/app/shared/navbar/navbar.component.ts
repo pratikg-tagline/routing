@@ -12,7 +12,17 @@ export class NavbarComponent implements OnInit {
 btn:string="button"
 getquote:string="GetGuote"
 teglinelogo:string="../assets/../assets/images/tagline.png"
-lable:string[]= ['casestady','aboutus','aboutus','technology','industry']
+lable:any[]= [
+  {
+    label:'ourservice',
+    link:'/casestady'
+  },
+ {
+    label1:'technology',
+    link:'/technology'
+  },
+
+]
   constructor() { }
 
   ngOnInit(): void {

@@ -1,0 +1,98 @@
+.row {
+    display: flex;
+    justify-content: center;
+    //margin-top: 10px;
+}
+
+.row .menu {
+    width: 100%;
+  //  box-shadow: 5px 0 #d66f37,0 0 10px rgb(168, 167, 167);
+    height: 10px;
+
+}
+
+.menu ul {
+    display: block; 
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 33px 10px 10px 53px;
+}
+
+/* .row .menu ul li.active,
+li:hover {
+    border: 2px dotted #d66f37;
+} */
+
+.menu ul li:first-child {
+    box-shadow: inset 7px 0em #D96122;
+}
+
+.menu ul li:first-child a {
+    color: #d66f37;
+
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: #404040;
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+}
+
+.menu ul li a:hover {
+    color: #d66f37;
+}
+
+.menu ul li a:active {
+    color: #d66f37;
+}
+
+
+.row .language {
+    width: 50%;
+    box-shadow: 0 0 10px rgb(168, 167, 167);;
+    padding: 40px;
+}
+
+.row .language .web .backend {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .language .web .backend div {
+    padding: 40px;
+}
+
+.row .language .web .backend img {
+    height: 50px;
+    max-width: 100px;
+}
+
+.row .language .web .backend h3 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.row .language .web .frontend {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+}
+
+.row .language .web .frontend div {
+    padding: 45px 42px 20px 40px;
+}
+
+.row .language .web .frontend img {
+    height: 50px;
+    max-width: 100px;
+}
+
+.row .language .web .frontend h3 {
+    font-weight: 300;
+    text-align: center;
+}
