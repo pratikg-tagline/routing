@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  btn:string="button"
+  clickme:string="clickme"
   constructor() { }
 
   ngOnInit(): void {
+    console.log('WORKING!!!');
   }
 
 }

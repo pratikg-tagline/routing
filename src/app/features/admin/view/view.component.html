@@ -1,0 +1,19 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="view">
+    <tr  *ngFor="let view of views">
+        <h1>{{view.name}}</h1>
+        <td>
+            <button  class="button" (click)="viewprofile(view.id)">view</button>
+        </td>
+        
+    </tr>
+</div>

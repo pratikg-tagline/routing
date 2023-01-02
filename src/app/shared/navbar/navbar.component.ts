@@ -25,6 +25,10 @@ lable:any[]= [
     label2:'user',
     link:'/technology'
   },
+  {
+    label3:'view',
+    link:'/technology'
+  },
 ]
   constructor() { }
 

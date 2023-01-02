@@ -1,21 +1,20 @@
 <p>navbar works!</p>
 
-    <div class="header">
-        <nav >
-            <ul>
-                <img [src]=teglinelogo>
-                <li *ngFor="let navbar of lable">
-                    <a [routerLink]="'services'" >{{navbar.label}}</a>
-                    <a [routerLink]="'technology'" >{{navbar.label1}}</a>
-                    <a [routerLink]="'user'" >{{navbar.label2}}</a>
-                </li>
-        
-                  
-               <div>
-                <button [type]="btn" style="display: flex;">{{getquote}}</button>
-               </div>
-                
-                </ul>
-            </nav>
-    </div>
- 
+<div class="header">
+  <nav>
+    <ul>
+      <img [src]="teglinelogo" />
+      <li *ngFor="let navbar of lable">
+        <a [routerLink]="'services'">{{ navbar.label }}</a>
+        <a [routerLink]="'technology'">{{ navbar.label1 }}</a>
+        <a [routerLink]="'user'">{{ navbar.label2 }}</a>
+        <a [routerLink]="'/view'">{{ navbar.label3 }}</a>
+       
+      
+      </li>
+      <div>
+        <button [type]="btn" style="display: flex">{{ getquote }}</button>
+      </div>
+    </ul>
+  </nav>
+</div>
