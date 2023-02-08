@@ -7,7 +7,6 @@
 <br />
 <br />
 <div class="card">
-  <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
   <div class="container">
     <h4><b>John Doe</b></h4>
     <p>Architect & Engineer</p>
@@ -16,13 +15,9 @@
       debitis, officiis quibusdam deserunt architecto magnam quod. Nobis quam
       maxime fuga ad, voluptates dolorum laborum autem doloribus magnam
       praesentium quas!
-     
-      
     </p>
-    <button class="button" [type]="btn">{{ clickme! }}</button>
-
-
-
-
+    <button class="button" [routerLink]="'data'" [type]="btn">
+      {{ clickme! }}
+    </button>
   </div>
 </div>

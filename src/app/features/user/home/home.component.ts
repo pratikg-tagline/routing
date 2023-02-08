@@ -8,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   btn:string="button"
   clickme:string="clickme"
+  
   constructor() { }
 
   ngOnInit(): void {
     console.log('WORKING!!!');
+    
   }
 
 }

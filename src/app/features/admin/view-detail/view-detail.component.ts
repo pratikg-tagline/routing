@@ -5,7 +5,7 @@ import { DataServiceService } from 'src/app/data-service.service';
 interface Data{
   id: number;
   name: string;
-}
+} 
 @Component({
   selector: 'app-view-detail',
   templateUrl: './view-detail.component.html',
@@ -22,7 +22,7 @@ public viewdetail!:Data
         this.viewId=response.id;
       }
     });
-    this.dataServiceService.list.find((res:any)=>{
+    this.dataServiceService.list.forEach((res:any)=>{
       if(res.id==this.viewId){
         this.viewdetail=res
       }
